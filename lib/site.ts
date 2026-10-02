@@ -8,7 +8,7 @@ export const SITE = {
   shortName: "MediCare Plus",
   tagline: "Your Health. Our Priority.",
   description:
-    "Quality healthcare and pharmacy services across Nairobi. Doctor consultations, prescription refills, lab tests, vaccination and free home drug delivery — across 5 branches.",
+    "Quality healthcare and pharmacy services across Nairobi. Doctor consultations, prescription refills, lab tests, vaccination and free home drug delivery across 5 branches.",
   url: "https://medicareplus.co.ke",
   email: "hello@medicareplus.co.ke",
   phoneDisplay: "+254 112 272 061",
@@ -30,7 +30,7 @@ export function waLink(message: string, number: string = SITE.whatsappNumber) {
   return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
 
-/** Primary WhatsApp CTA — book or order. */
+/** Primary WhatsApp CTA: book or order. */
 export const WA_MAIN = waLink(
   "Hello! I'd like to book an appointment or order medicine at MediCare Plus."
 );

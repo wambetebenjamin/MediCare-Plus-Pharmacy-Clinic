@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     locale: "en_KE",
     url: SITE.url,
     siteName: SITE.name,
-    title: "MediCare Plus Pharmacy & Clinic — Your Health. Our Priority.",
+    title: "MediCare Plus Pharmacy & Clinic | Your Health. Our Priority.",
     description: SITE.description,
   },
   twitter: {
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#008080",
+  themeColor: "#16a34a",
   width: "device-width",
   initialScale: 1,
 };

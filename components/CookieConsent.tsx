@@ -25,7 +25,7 @@ export default function CookieConsent() {
     try {
       localStorage.setItem(KEY, value);
     } catch {
-      /* storage unavailable — just close */
+      /* storage unavailable, just close */
     }
     setVisible(false);
   }
@@ -40,7 +40,7 @@ export default function CookieConsent() {
       </h5>
       <p>
         We use strictly necessary cookies to run this site, and optional
-        analytics cookies to improve it — handled in line with the Kenya Data
+        analytics cookies to improve it, handled in line with the Kenya Data
         Protection Act (2019) and GDPR. You can change your choice any time.
       </p>
       <div className="cookie-actions">

@@ -12,7 +12,7 @@ export const services: Service[] = [
     icon: "stethoscope",
     title: "General Consultation",
     description:
-      "Walk in or book same-day GP consultations for the whole family — adults and children welcome.",
+      "Walk in or book same-day GP consultations for the whole family. Adults and children welcome.",
   },
   {
     icon: "pill",
@@ -24,7 +24,7 @@ export const services: Service[] = [
     icon: "flask",
     title: "Lab & Diagnostics",
     description:
-      "On-site laboratory — blood work, malaria, typhoid, glucose and HbA1c, with same-day results.",
+      "On-site laboratory: blood work, malaria, typhoid, glucose and HbA1c, with same-day results.",
   },
   {
     icon: "baby",
@@ -48,7 +48,7 @@ export const services: Service[] = [
     icon: "syringe",
     title: "Vaccination",
     description:
-      "Childhood immunisation (KEPI), travel vaccines, flu and HPV jabs — walk-ins welcome.",
+      "Childhood immunisation (KEPI), travel vaccines, flu and HPV jabs. Walk-ins welcome.",
   },
   {
     icon: "heartPulse",

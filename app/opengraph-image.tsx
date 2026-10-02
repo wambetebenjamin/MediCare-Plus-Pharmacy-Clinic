@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "MediCare Plus Pharmacy & Clinic — Your Health. Our Priority.";
+  "MediCare Plus Pharmacy & Clinic | Your Health. Our Priority.";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -17,7 +17,7 @@ export default function OpengraphImage() {
           justifyContent: "space-between",
           padding: "64px 72px",
           background:
-            "linear-gradient(125deg, #0b2545 0%, #0d3a5c 55%, #006767 100%)",
+            "linear-gradient(125deg, #0e2f66 0%, #14418f 55%, #15803d 100%)",
           color: "#fff",
           fontFamily: "sans-serif",
         }}
@@ -28,7 +28,7 @@ export default function OpengraphImage() {
               width: 76,
               height: 76,
               borderRadius: 22,
-              background: "linear-gradient(135deg, #0b9c9c, #006767)",
+              background: "linear-gradient(135deg, #22c55e, #15803d)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
@@ -40,7 +40,7 @@ export default function OpengraphImage() {
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <span style={{ fontSize: 34, fontWeight: 800, letterSpacing: -1 }}>
-              MediCare <span style={{ color: "#5fe0d4" }}>Plus</span>
+              MediCare <span style={{ color: "#6ee7b7" }}>Plus</span>
             </span>
             <span style={{ fontSize: 15, letterSpacing: 6, textTransform: "uppercase", color: "rgba(255,255,255,0.6)" }}>
               Pharmacy &amp; Clinic
@@ -50,10 +50,10 @@ export default function OpengraphImage() {
 
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
           <span style={{ fontSize: 68, fontWeight: 800, lineHeight: 1.05, letterSpacing: -2 }}>
-            Your Health. <span style={{ color: "#5fe0d4" }}>Our Priority.</span>
+            Your Health. <span style={{ color: "#6ee7b7" }}>Our Priority.</span>
           </span>
           <span style={{ fontSize: 26, color: "rgba(255,255,255,0.75)", maxWidth: 820 }}>
-            Doctors · 24-hour pharmacy · lab tests · free home delivery — across Nairobi.
+            Doctors · 24-hour pharmacy · lab tests · free home delivery across Nairobi.
           </span>
         </div>
 
@@ -63,7 +63,7 @@ export default function OpengraphImage() {
               display: "flex",
               alignItems: "center",
               gap: 12,
-              background: "linear-gradient(135deg, #f26a4f, #ce4226)",
+              background: "linear-gradient(135deg, #ef4444, #c81e1e)",
               padding: "14px 30px",
               borderRadius: 999,
               fontSize: 22,

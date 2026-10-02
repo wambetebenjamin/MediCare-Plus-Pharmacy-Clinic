@@ -7,12 +7,12 @@ export default function ContactSection() {
     <section className="section contact" id="contact" aria-label="Contact and appointments">
       <div className="container contact-grid">
         <div className="contact-info" data-reveal="left">
-          <span className="eyebrow" style={{ color: "#8ce8e2" }}>
+          <span className="eyebrow" style={{ color: "#86efac" }}>
             Get In Touch
           </span>
           <h3>Book an appointment or just say hello</h3>
           <p>
-            Call, WhatsApp or drop by — our friendly reception team answers
+            Call, WhatsApp or drop by. Our friendly reception team answers
             within minutes during working hours.
           </p>
 

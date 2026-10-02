@@ -17,7 +17,7 @@ export default function Branches() {
           <h2>5 branches across Nairobi</h2>
           <div className="divider" />
           <p>
-            Near home, near work, near your matatu stage — there is a MediCare
+            Near home, near work, near your matatu stage: there is a MediCare
             Plus close to you.
           </p>
         </div>
@@ -46,7 +46,7 @@ export default function Branches() {
           <div className="branch-card">
             <div className="branch-main">
               {branch.tag && <span className="branch-tag">{branch.tag}</span>}
-              <h3>MediCare Plus — {branch.name}</h3>
+              <h3>MediCare Plus {branch.name}</h3>
               <div className="branch-rows">
                 <p className="branch-row">
                   <Icon name="pin" size={19} />
@@ -108,7 +108,7 @@ export default function Branches() {
               <p>{branch.pharmacyNote}.</p>
               <p>
                 Walk-ins are welcome all day, but booking ahead means zero
-                waiting — your consultation room is ready when you arrive.
+                waiting. Your consultation room is ready when you arrive.
               </p>
               <a href="#contact" className="btn btn-ghost btn-sm">
                 <Icon name="calendar" size={16} />

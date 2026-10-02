@@ -1,5 +1,5 @@
 /**
- * Notification helpers — email + WhatsApp.
+ * Notification helpers: email + WhatsApp.
  *
  * EMAIL: If RESEND_API_KEY is set and the `resend` package is installed,
  * transactional emails are sent via Resend. Otherwise the email payload is
@@ -26,7 +26,7 @@ export async function sendEmail(opts: {
     return false;
   }
   try {
-    // Optional dependency — only loaded when configured.
+    // Optional dependency, only loaded when configured.
     const mod: any = await import(/* webpackIgnore: true */ "resend" as string);
     const resend = new mod.Resend(process.env.RESEND_API_KEY);
     await resend.emails.send({ from: EMAIL_FROM, ...opts });

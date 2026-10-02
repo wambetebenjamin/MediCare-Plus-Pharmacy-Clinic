@@ -12,7 +12,7 @@ export default function Doctors() {
           <h2>Specialists you can trust</h2>
           <div className="divider" />
           <p>
-            Experienced, KMPDC-registered clinicians who take time to listen —
+            Experienced, KMPDC-registered clinicians who take time to listen
             and follow up until you are well.
           </p>
         </div>

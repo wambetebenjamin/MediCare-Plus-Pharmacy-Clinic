@@ -1,33 +1,33 @@
 /* ============================================================
-   MediCare Plus Pharmacy & Clinic — Design System
-   Palette: Medical teal #008080 · White #FFFFFF · Soft mint #E8F5F0
-            Deep navy #0B2545 · Warm coral #E8533A
+   MediCare Plus Pharmacy & Clinic Design System
+   Palette: Health green #16A34A · White #FFFFFF · Soft mint #E8F5F0
+            Medical blue #0E2F66 · Health red #E02424
    Neutrals (inherited from the legacy template): #6F8BA4 · #F4F9FC
    Type: Outfit (headings) + Nunito (body)
    ============================================================ */
 
 :root {
-  --teal: #008080;
-  --teal-dark: #006767;
-  --teal-ink: #005353;
+  --teal: #16a34a;
+  --teal-dark: #15803d;
+  --teal-ink: #14532d;
   --mint: #e8f5f0;
   --mint-deep: #d5ece2;
-  --navy: #0b2545;
-  --navy-2: #123a66;
-  --navy-3: #0d2c52;
-  --coral: #e8533a;
-  --coral-dark: #ce4226;
-  --coral-soft: #fdeeea;
+  --navy: #0e2f66;
+  --navy-2: #16459c;
+  --navy-3: #103677;
+  --coral: #e02424;
+  --coral-dark: #c81e1e;
+  --coral-soft: #fdecec;
   --white: #ffffff;
   --ink: #31445c;
   --muted: #6f8ba4;
   --line: #dce9f0;
   --bg-soft: #f4f9fc;
-  --shadow-sm: 0 4px 14px -4px rgba(11, 37, 69, 0.1);
-  --shadow-md: 0 14px 34px -12px rgba(11, 37, 69, 0.16);
-  --shadow-lg: 0 30px 60px -18px rgba(11, 37, 69, 0.24);
-  --shadow-teal: 0 14px 34px -10px rgba(0, 128, 128, 0.4);
-  --shadow-coral: 0 14px 30px -8px rgba(232, 83, 58, 0.45);
+  --shadow-sm: 0 4px 14px -4px rgba(14, 47, 102, 0.1);
+  --shadow-md: 0 14px 34px -12px rgba(14, 47, 102, 0.16);
+  --shadow-lg: 0 30px 60px -18px rgba(14, 47, 102, 0.24);
+  --shadow-teal: 0 14px 34px -10px rgba(22, 163, 74, 0.4);
+  --shadow-coral: 0 14px 30px -8px rgba(224, 36, 36, 0.45);
   --radius: 18px;
   --radius-lg: 28px;
   --font-head: "Outfit", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -223,30 +223,30 @@ h5 {
 }
 
 .btn-coral {
-  background: linear-gradient(135deg, #f26a4f 0%, var(--coral) 60%, var(--coral-dark) 100%);
+  background: linear-gradient(135deg, #ef4444 0%, var(--coral) 60%, var(--coral-dark) 100%);
   color: #fff;
   box-shadow: var(--shadow-coral);
 }
 
 .btn-coral:hover {
-  box-shadow: 0 20px 40px -10px rgba(232, 83, 58, 0.55);
+  box-shadow: 0 20px 40px -10px rgba(224, 36, 36, 0.55);
   color: #fff;
 }
 
 .btn-teal {
-  background: linear-gradient(135deg, #0b9c9c 0%, var(--teal) 55%, var(--teal-dark) 100%);
+  background: linear-gradient(135deg, #22c55e 0%, var(--teal) 55%, var(--teal-dark) 100%);
   color: #fff;
   box-shadow: var(--shadow-teal);
 }
 
 .btn-teal:hover {
-  box-shadow: 0 20px 42px -10px rgba(0, 128, 128, 0.55);
+  box-shadow: 0 20px 42px -10px rgba(22, 163, 74, 0.55);
   color: #fff;
 }
 
 .btn-outline {
   background: var(--white);
-  border-color: rgba(11, 37, 69, 0.16);
+  border-color: rgba(14, 47, 102, 0.16);
   color: var(--navy);
 }
 
@@ -349,8 +349,8 @@ h5 {
   font-family: var(--font-head);
   font-weight: 700;
   color: #fff;
-  background: rgba(232, 83, 58, 0.16);
-  border: 1px solid rgba(232, 83, 58, 0.45);
+  background: rgba(224, 36, 36, 0.16);
+  border: 1px solid rgba(224, 36, 36, 0.45);
   padding: 4px 14px;
   border-radius: 999px;
 }
@@ -361,7 +361,7 @@ h5 {
 }
 
 .topbar-emergency svg {
-  color: #ffb4a1;
+  color: #fca5a5;
 }
 
 .topbar-emergency:hover svg {
@@ -399,7 +399,7 @@ h5 {
 
 .site-header.scrolled {
   border-bottom-color: var(--line);
-  box-shadow: 0 10px 30px -14px rgba(11, 37, 69, 0.18);
+  box-shadow: 0 10px 30px -14px rgba(14, 47, 102, 0.18);
 }
 
 .navbar {
@@ -425,8 +425,8 @@ h5 {
   display: grid;
   place-items: center;
   color: #fff;
-  background: linear-gradient(135deg, #0b9c9c, var(--teal) 55%, var(--teal-dark));
-  box-shadow: 0 8px 18px -6px rgba(0, 128, 128, 0.55);
+  background: linear-gradient(135deg, #22c55e, var(--teal) 55%, var(--teal-dark));
+  box-shadow: 0 8px 18px -6px rgba(22, 163, 74, 0.55);
 }
 
 .brand-mark::after {
@@ -548,7 +548,7 @@ h5 {
 .mobile-nav-backdrop {
   position: absolute;
   inset: 0;
-  background: rgba(11, 37, 69, 0.5);
+  background: rgba(14, 47, 102, 0.5);
   opacity: 0;
   transition: opacity 0.3s;
 }
@@ -628,7 +628,7 @@ h5 {
   width: 560px;
   height: 560px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(0, 128, 128, 0.16), rgba(0, 128, 128, 0) 68%);
+  background: radial-gradient(circle, rgba(22, 163, 74, 0.16), rgba(22, 163, 74, 0) 68%);
 }
 
 .hero::after {
@@ -639,7 +639,7 @@ h5 {
   width: 520px;
   height: 520px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(232, 83, 58, 0.1), rgba(232, 83, 58, 0) 68%);
+  background: radial-gradient(circle, rgba(224, 36, 36, 0.1), rgba(224, 36, 36, 0) 68%);
 }
 
 .hero-grid {
@@ -700,7 +700,7 @@ h5 {
   bottom: 6px;
   height: 12px;
   border-radius: 8px;
-  background: rgba(232, 83, 58, 0.22);
+  background: rgba(224, 36, 36, 0.22);
   z-index: -1;
 }
 
@@ -814,7 +814,7 @@ h5 {
   inset: -14px -14px auto auto;
   width: 100%;
   height: 100%;
-  border: 2.5px solid rgba(0, 128, 128, 0.35);
+  border: 2.5px solid rgba(22, 163, 74, 0.35);
   border-radius: 40px;
   transform: translate(16px, 16px);
   z-index: -1;
@@ -835,7 +835,7 @@ h5 {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(200deg, rgba(11, 37, 69, 0) 55%, rgba(11, 37, 69, 0.42) 100%);
+  background: linear-gradient(200deg, rgba(14, 47, 102, 0) 55%, rgba(14, 47, 102, 0.42) 100%);
 }
 
 /* floating cards */
@@ -886,11 +886,11 @@ h5 {
 }
 
 .float-ico-teal {
-  background: linear-gradient(135deg, #0b9c9c, var(--teal-dark));
+  background: linear-gradient(135deg, #22c55e, var(--teal-dark));
 }
 
 .float-ico-coral {
-  background: linear-gradient(135deg, #f26a4f, var(--coral-dark));
+  background: linear-gradient(135deg, #ef4444, var(--coral-dark));
 }
 
 .float-card b {
@@ -929,7 +929,7 @@ h5 {
 /* deco crosses */
 .deco-cross {
   position: absolute;
-  color: rgba(0, 128, 128, 0.14);
+  color: rgba(22, 163, 74, 0.14);
   z-index: 1;
 }
 
@@ -1083,7 +1083,7 @@ h5 {
 }
 
 /* ============================================================
-   SERVICES — 3D lifted cards
+   SERVICES: 3D lifted cards
    ============================================================ */
 .services-grid {
   display: grid;
@@ -1106,9 +1106,9 @@ h5 {
 
 .service-card:hover {
   transform: translateY(-12px) rotateX(3deg);
-  box-shadow: 0 34px 54px -18px rgba(11, 37, 69, 0.24),
-    0 0 0 1px rgba(0, 128, 128, 0.12);
-  border-color: rgba(0, 128, 128, 0.3);
+  box-shadow: 0 34px 54px -18px rgba(14, 47, 102, 0.24),
+    0 0 0 1px rgba(22, 163, 74, 0.12);
+  border-color: rgba(22, 163, 74, 0.3);
 }
 
 .service-ico {
@@ -1120,12 +1120,12 @@ h5 {
   background: linear-gradient(135deg, var(--mint) 0%, #d9f0e7 100%);
   color: var(--teal);
   margin-bottom: 20px;
-  box-shadow: inset 0 -3px 0 rgba(0, 128, 128, 0.14);
+  box-shadow: inset 0 -3px 0 rgba(22, 163, 74, 0.14);
   transition: transform 0.4s var(--ease-out), background 0.3s, color 0.3s;
 }
 
 .service-card:hover .service-ico {
-  background: linear-gradient(135deg, #0b9c9c, var(--teal-dark));
+  background: linear-gradient(135deg, #22c55e, var(--teal-dark));
   color: #fff;
   transform: translateZ(26px) scale(1.04);
 }
@@ -1175,12 +1175,12 @@ h5 {
 }
 
 /* ============================================================
-   HOW IT WORKS — timeline
+   HOW IT WORKS: timeline
    ============================================================ */
 .how {
   background:
-    radial-gradient(900px 340px at 110% -10%, rgba(0, 128, 128, 0.1), transparent 60%),
-    radial-gradient(700px 300px at -10% 110%, rgba(232, 83, 58, 0.07), transparent 60%),
+    radial-gradient(900px 340px at 110% -10%, rgba(22, 163, 74, 0.1), transparent 60%),
+    radial-gradient(700px 300px at -10% 110%, rgba(224, 36, 36, 0.07), transparent 60%),
     var(--navy);
   color: #fff;
 }
@@ -1195,7 +1195,7 @@ h5 {
 }
 
 .how .divider {
-  background: linear-gradient(90deg, #3fd0c9, var(--coral));
+  background: linear-gradient(90deg, #4ade80, var(--coral));
 }
 
 .steps {
@@ -1241,7 +1241,7 @@ h5 {
   background: rgba(255, 255, 255, 0.07);
   border: 1px solid rgba(255, 255, 255, 0.16);
   backdrop-filter: blur(4px);
-  color: #8ce8e2;
+  color: #86efac;
   transition: transform 0.4s var(--ease-out), background 0.3s;
 }
 
@@ -1261,12 +1261,12 @@ h5 {
   border-radius: 999px;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #f26a4f, var(--coral-dark));
+  background: linear-gradient(135deg, #ef4444, var(--coral-dark));
   color: #fff;
   font-family: var(--font-head);
   font-weight: 800;
   font-size: 0.85rem;
-  box-shadow: 0 8px 18px -6px rgba(232, 83, 58, 0.7);
+  box-shadow: 0 8px 18px -6px rgba(224, 36, 36, 0.7);
 }
 
 .step h3 {
@@ -1290,7 +1290,7 @@ h5 {
   font-family: var(--font-head);
   font-weight: 700;
   font-size: 0.88rem;
-  color: #8ce8e2;
+  color: #86efac;
 }
 
 .step a:hover {
@@ -1376,7 +1376,7 @@ h5 {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(11, 37, 69, 0) 62%, rgba(11, 37, 69, 0.55));
+  background: linear-gradient(180deg, rgba(14, 47, 102, 0) 62%, rgba(14, 47, 102, 0.55));
 }
 
 .doctor-days {
@@ -1459,7 +1459,7 @@ h5 {
 }
 
 /* ============================================================
-   STATS STRIP — animated counters
+   STATS STRIP: animated counters
    ============================================================ */
 .stats {
   position: relative;
@@ -1522,7 +1522,7 @@ h5 {
 }
 
 .stat-value .suffix {
-  color: #ffd9cf;
+  color: #fecaca;
 }
 
 .stat-label {
@@ -1575,7 +1575,7 @@ h5 {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(11, 37, 69, 0) 56%, rgba(11, 37, 69, 0.5));
+  background: linear-gradient(180deg, rgba(14, 47, 102, 0) 56%, rgba(14, 47, 102, 0.5));
 }
 
 .pharmacy-img-tag {
@@ -1602,7 +1602,7 @@ h5 {
   top: -18px;
   right: -14px;
   z-index: 3;
-  background: linear-gradient(135deg, #f26a4f, var(--coral-dark));
+  background: linear-gradient(135deg, #ef4444, var(--coral-dark));
   color: #fff;
   border-radius: 20px;
   padding: 14px 20px;
@@ -1642,7 +1642,7 @@ h5 {
 
 .med-search:focus-within {
   border-color: var(--teal);
-  box-shadow: 0 0 0 4px rgba(0, 128, 128, 0.12);
+  box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.12);
 }
 
 .med-search svg {
@@ -1691,7 +1691,7 @@ h5 {
 .pharm-cat:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-md);
-  border-color: rgba(0, 128, 128, 0.35);
+  border-color: rgba(22, 163, 74, 0.35);
 }
 
 .pharm-cat-img {
@@ -1797,7 +1797,7 @@ h5 {
   z-index: 2;
   padding: 6px 14px;
   border-radius: 999px;
-  background: rgba(11, 37, 69, 0.72);
+  background: rgba(14, 47, 102, 0.72);
   backdrop-filter: blur(6px);
   color: #fff;
   font-family: var(--font-head);
@@ -1877,7 +1877,7 @@ h5 {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #0b9c9c, var(--teal-dark));
+  background: linear-gradient(135deg, #22c55e, var(--teal-dark));
   color: #fff;
   font-family: var(--font-head);
   font-weight: 800;
@@ -1968,7 +1968,7 @@ h5 {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #f26a4f, var(--coral-dark));
+  background: linear-gradient(135deg, #ef4444, var(--coral-dark));
   color: #fff;
   box-shadow: var(--shadow-coral);
 }
@@ -2195,7 +2195,7 @@ h5 {
 }
 
 .branch-tab.active {
-  background: linear-gradient(135deg, #0b9c9c, var(--teal-dark));
+  background: linear-gradient(135deg, #22c55e, var(--teal-dark));
   border-color: var(--teal);
   color: #fff;
   box-shadow: var(--shadow-teal);
@@ -2332,7 +2332,7 @@ h5 {
 }
 
 .branch-side h4 svg {
-  color: #8ce8e2;
+  color: #86efac;
 }
 
 .branch-side p {
@@ -2361,7 +2361,7 @@ h5 {
    ============================================================ */
 .contact {
   background:
-    radial-gradient(700px 340px at 108% 0%, rgba(0, 128, 128, 0.12), transparent 60%),
+    radial-gradient(700px 340px at 108% 0%, rgba(22, 163, 74, 0.12), transparent 60%),
     linear-gradient(180deg, #f7fbfd, var(--mint));
 }
 
@@ -2373,7 +2373,7 @@ h5 {
 }
 
 .contact-info {
-  background: linear-gradient(165deg, var(--navy) 0%, var(--navy-3) 70%, #0f3a5c 100%);
+  background: linear-gradient(165deg, var(--navy) 0%, var(--navy-3) 70%, #14418f 100%);
   border-radius: var(--radius-lg);
   padding: 46px 42px;
   color: #fff;
@@ -2391,7 +2391,7 @@ h5 {
   width: 260px;
   height: 260px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(0, 128, 128, 0.4), transparent 70%);
+  background: radial-gradient(circle, rgba(22, 163, 74, 0.4), transparent 70%);
 }
 
 .contact-info h3 {
@@ -2427,7 +2427,7 @@ h5 {
   place-items: center;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.16);
-  color: #8ce8e2;
+  color: #86efac;
 }
 
 .contact-row b {
@@ -2450,8 +2450,8 @@ h5 {
   margin-top: auto;
   position: relative;
   border-radius: 18px;
-  background: rgba(232, 83, 58, 0.14);
-  border: 1px solid rgba(232, 83, 58, 0.45);
+  background: rgba(224, 36, 36, 0.14);
+  border: 1px solid rgba(224, 36, 36, 0.45);
   padding: 18px 20px;
   display: flex;
   align-items: center;
@@ -2466,7 +2466,7 @@ h5 {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #f26a4f, var(--coral-dark));
+  background: linear-gradient(135deg, #ef4444, var(--coral-dark));
   color: #fff;
 }
 
@@ -2475,7 +2475,7 @@ h5 {
   position: absolute;
   inset: 0;
   border-radius: 50%;
-  border: 2px solid rgba(232, 83, 58, 0.7);
+  border: 2px solid rgba(224, 36, 36, 0.7);
   animation: ring-pulse 2s ease-out infinite;
 }
 
@@ -2592,7 +2592,7 @@ h5 {
 .field select:focus,
 .field textarea:focus {
   border-color: var(--teal);
-  box-shadow: 0 0 0 4px rgba(0, 128, 128, 0.11);
+  box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.11);
   background: #fff;
 }
 
@@ -2629,8 +2629,8 @@ h5 {
 .form-error {
   grid-column: 1 / -1;
   background: #fdeeee;
-  border: 1px solid #f3c1b3;
-  color: #b23b22;
+  border: 1px solid #f3bcbc;
+  color: #991b1b;
   border-radius: 12px;
   padding: 12px 16px;
   font-size: 0.88rem;
@@ -2737,7 +2737,7 @@ h5 {
 }
 
 .footer-emergency {
-  background: linear-gradient(90deg, var(--coral-dark), var(--coral) 55%, #f26a4f);
+  background: linear-gradient(90deg, var(--coral-dark), var(--coral) 55%, #ef4444);
   color: #fff;
 }
 
@@ -2870,7 +2870,7 @@ h5 {
 }
 
 .footer-tip {
-  background: rgba(0, 128, 128, 0.16);
+  background: rgba(22, 163, 74, 0.16);
   border: 1px dashed rgba(140, 232, 226, 0.45);
   border-radius: 16px;
   padding: 16px 18px;
@@ -2879,7 +2879,7 @@ h5 {
 }
 
 .footer-tip b {
-  color: #8ce8e2;
+  color: #86efac;
   font-family: var(--font-head);
   display: flex;
   align-items: center;
@@ -2933,11 +2933,11 @@ h5 {
 }
 
 .newsletter-msg.ok {
-  color: #7fe7c5;
+  color: #86efac;
 }
 
 .newsletter-msg.err {
-  color: #ffb4a1;
+  color: #fca5a5;
 }
 
 .footer-bottom {
@@ -2967,7 +2967,7 @@ h5 {
 }
 
 .footer-bottom .kbadge svg {
-  color: #8ce8e2;
+  color: #86efac;
 }
 
 @media (max-width: 980px) {
@@ -3028,8 +3028,8 @@ h5 {
   display: grid;
   place-items: center;
   color: #fff;
-  background: linear-gradient(135deg, #0b9c9c, var(--teal-dark));
-  box-shadow: 0 16px 34px -8px rgba(0, 128, 128, 0.6);
+  background: linear-gradient(135deg, #22c55e, var(--teal-dark));
+  box-shadow: 0 16px 34px -8px rgba(22, 163, 74, 0.6);
   transition: transform 0.3s var(--ease-out);
 }
 
@@ -3043,7 +3043,7 @@ h5 {
   position: absolute;
   inset: -5px;
   border-radius: 50%;
-  border: 2.5px solid rgba(232, 83, 58, 0.75);
+  border: 2.5px solid rgba(224, 36, 36, 0.75);
   animation: ring-pulse 1.9s ease-out infinite;
 }
 
@@ -3078,20 +3078,20 @@ h5 {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(11, 37, 69, 0.18);
+  background: rgba(14, 47, 102, 0.18);
   border: 2px solid transparent;
   transition: all 0.3s var(--ease-out);
   display: block;
 }
 
 .scroll-dots a:hover {
-  background: rgba(0, 128, 128, 0.5);
+  background: rgba(22, 163, 74, 0.5);
 }
 
 .scroll-dots a.active {
   background: var(--coral);
   transform: scale(1.25);
-  box-shadow: 0 0 0 5px rgba(232, 83, 58, 0.18);
+  box-shadow: 0 0 0 5px rgba(224, 36, 36, 0.18);
 }
 
 .scroll-dots a span {
@@ -3238,7 +3238,7 @@ h5 {
    ============================================================ */
 .article-hero {
   background:
-    radial-gradient(800px 300px at 100% 0%, rgba(0, 128, 128, 0.14), transparent 60%),
+    radial-gradient(800px 300px at 100% 0%, rgba(22, 163, 74, 0.14), transparent 60%),
     linear-gradient(180deg, #f7fbfd, var(--mint));
   padding: 72px 0 60px;
 }

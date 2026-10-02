@@ -2,7 +2,7 @@
  * Persistence layer.
  *
  * Uses Vercel KV when the environment variables are present
- * (KV_REST_API_URL / KV_REST_API_TOKEN — automatically injected when a
+ * (KV_REST_API_URL / KV_REST_API_TOKEN, automatically injected when a
  * KV database is linked to the Vercel project). During local development
  * or preview without KV, records are logged to the server console so the
  * app remains fully functional.
