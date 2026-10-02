@@ -62,7 +62,7 @@ export default function Footer() {
           </span>
           <p>
             MediCare Plus is a family of neighbourhood clinics and pharmacies
-            making quality healthcare feel close, warm and affordable — across
+            making quality healthcare feel close, warm and affordable, across
             Nairobi since 2016.
           </p>
           <div className="socials">
@@ -116,14 +116,14 @@ export default function Footer() {
               <Icon name="leaf" size={16} />
               Health Tip of the Week
             </b>
-            Rainy season is malaria season in Nairobi — sleep under treated
+            Rainy season is malaria season in Nairobi. Sleep under treated
             nets, and test early when fever starts. Early treatment is faster,
             cheaper and safer.
           </div>
           <div className="newsletter">
             <p>
               Join 2,000+ Nairobians getting a short, practical health tip
-              every week. No spam — ever.
+              every week. No spam, ever.
             </p>
             <NewsletterForm />
           </div>

@@ -15,14 +15,14 @@ const steps: Step[] = [
   {
     icon: "whatsapp",
     title: "Book in seconds",
-    text: "Message us on WhatsApp or fill the appointment form — no queues, no hold music.",
+    text: "Message us on WhatsApp or fill the appointment form. No queues, no hold music.",
     linkLabel: "Chat now",
     href: WA_MAIN,
     external: true,
   },
   {
     icon: "home",
-    title: "Visit us — or we visit you",
+    title: "Visit us, or we visit you",
     text: "Walk into any of our 5 branches, or request a home visit and medicine delivery at your door.",
     linkLabel: "Find a branch",
     href: "#branches",
@@ -41,14 +41,14 @@ export default function HowItWorks() {
     <section className="section how" aria-label="How it works">
       <div className="container">
         <div className="section-head" data-reveal>
-          <span className="eyebrow" style={{ color: "#8ce8e2" }}>
+          <span className="eyebrow" style={{ color: "#86efac" }}>
             How It Works
           </span>
           <h2>Care in three easy steps</h2>
           <div className="divider" />
           <p>
             Healthcare should not be a full-day errand. With MediCare Plus it
-            takes minutes — not hours.
+            takes minutes, not hours.
           </p>
         </div>
 

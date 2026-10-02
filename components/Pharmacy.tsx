@@ -79,7 +79,7 @@ export default function Pharmacy() {
             <p>
               Search a medicine below or send us a photo of your prescription.
               Our pharmacists confirm stock, share the price and dispatch a
-              rider — free anywhere in Nairobi.
+              rider, free anywhere in Nairobi.
             </p>
           </div>
 
@@ -113,7 +113,7 @@ export default function Pharmacy() {
 
             <div
               className="pharm-cat"
-              style={{ background: "linear-gradient(135deg, #0b9c9c, #006767)", borderColor: "#006767" }}
+              style={{ background: "linear-gradient(135deg, #22c55e, #15803d)", borderColor: "#15803d" }}
             >
               <span
                 className="pharm-cat-img"
@@ -123,7 +123,7 @@ export default function Pharmacy() {
               </span>
               <div>
                 <b style={{ color: "#fff" }}>Have a prescription?</b>
-                <a href={WA_REFILL} target="_blank" rel="noopener noreferrer" style={{ color: "#ffe1d9" }}>
+                <a href={WA_REFILL} target="_blank" rel="noopener noreferrer" style={{ color: "#fed7d7" }}>
                   <Icon name="whatsapp" size={14} />
                   Refill it now
                 </a>

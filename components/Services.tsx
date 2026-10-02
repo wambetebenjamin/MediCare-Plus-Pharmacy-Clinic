@@ -11,7 +11,7 @@ export default function Services() {
           <h2>Complete care, under one roof</h2>
           <div className="divider" />
           <p>
-            From a simple fever to lifelong chronic care — our clinics combine
+            From a simple fever to lifelong chronic care, our clinics combine
             doctors, laboratory and pharmacy so you never shuttle between
             facilities again.
           </p>

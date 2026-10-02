@@ -107,7 +107,7 @@ export async function POST(req: NextRequest) {
   await sendEmail({
     to: "bookings@medicareplus.co.ke",
     replyTo: email || undefined,
-    subject: `New appointment request ${id} — ${name}`,
+    subject: `New appointment request ${id} from ${name}`,
     html: `<h2>New appointment request</h2><pre style="font-family:monospace">${staffText}</pre>`,
   });
 
@@ -116,7 +116,7 @@ export async function POST(req: NextRequest) {
   if (email) {
     emailSent = await sendEmail({
       to: email,
-      subject: `We received your appointment request (${id}) — MediCare Plus`,
+      subject: `We received your appointment request (${id}) | MediCare Plus`,
       html: `<p>Hello ${name.split(" ")[0]},</p>
 <p>Thank you for choosing MediCare Plus. We have received your appointment request:</p>
 <ul>

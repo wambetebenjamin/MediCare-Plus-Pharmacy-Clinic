@@ -3,8 +3,8 @@ import React, { type ReactNode } from "react";
 /**
  * Minimal, safe markdown → React renderer for our own health blog content.
  * Supports: ## h2, ### h3, - unordered lists, > blockquote, paragraphs and
- * **bold** / *italic* inline marks. Everything is rendered as React nodes —
- * no HTML injection surface.
+ * **bold** / *italic* inline marks. Everything is rendered as React nodes, so
+ * there is no HTML injection surface.
  */
 
 function renderInline(text: string, keyPrefix: string): ReactNode[] {

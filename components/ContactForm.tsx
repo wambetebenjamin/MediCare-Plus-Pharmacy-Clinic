@@ -66,7 +66,7 @@ export default function ContactForm() {
       setStatus("success");
       form.reset();
     } catch {
-      setError("Network error — please check your connection and try again.");
+      setError("Network error. Please check your connection and try again.");
       setStatus("error");
     }
   }
@@ -84,7 +84,7 @@ export default function ContactForm() {
         </h3>
         <p>
           {mode === "appointment"
-            ? "Our reception team is confirming your slot right now. Tap below to confirm instantly on WhatsApp — a confirmation email is on its way too."
+            ? "Our reception team is confirming your slot right now. Tap below to confirm instantly on WhatsApp. A confirmation email is on its way too."
             : "Thank you for reaching out. A member of our team will get back to you within a few working hours."}
         </p>
         <span className="ref">Ref: {result.id}</span>
@@ -202,7 +202,7 @@ export default function ContactForm() {
                 <option value="">No preference</option>
                 {doctors.map((d) => (
                   <option key={d.id} value={d.name}>
-                    {d.name} — {d.specialty.split("·")[0].trim()}
+                    {d.name} ({d.specialty.split("·")[0].trim()})
                   </option>
                 ))}
               </select>

@@ -32,7 +32,7 @@ export default function Hero() {
             <span className="accent">Our Priority.</span>
           </h1>
           <p className="hero-sub">
-            Quality healthcare and pharmacy services across Nairobi —{" "}
+            Quality healthcare and pharmacy services across Nairobi:{" "}
             <strong>
               doctor consultations, same-day lab tests and free medicine
               delivery

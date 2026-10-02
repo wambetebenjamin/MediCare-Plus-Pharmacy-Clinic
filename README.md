@@ -1,14 +1,14 @@
 # MediCare Plus Pharmacy & Clinic
 
-A premium healthcare website for **MediCare Plus Pharmacy & Clinic** — a chain of
+A premium healthcare website for **MediCare Plus Pharmacy & Clinic**, a chain of
 community clinics and 24-hour pharmacies in Nairobi, Kenya. Built with
 **Next.js 14 (App Router) + TypeScript**, styled with a hand-crafted design
 system (no UI framework), and deployable to Vercel in one click.
 
 The layout and visual language were re-imagined from the legacy *Novena*
-medical template (see `novena.zip`) — topbar, sticky navbar, split hero,
+medical template (see `novena.zip`): topbar, sticky navbar, split hero,
 feature cards, counter strip, doctor grid, testimonials, logo strip,
-appointment form — rebuilt as a modern, fully responsive React application
+appointment form, rebuilt as a modern, fully responsive React application
 with the MediCare Plus brand palette (medical teal, mint, deep navy, warm
 coral) and Outfit + Nunito typography.
 
@@ -31,7 +31,7 @@ coral) and Outfit + Nunito typography.
   headers + HTTP→HTTPS redirect via `vercel.json`, cookie-consent banner
   (Kenya DPA 2019 / GDPR).
 - **Motion design**: IntersectionObserver-driven staggered reveals, vertical
-  section dots, animated counters, floating hero cards, marquee — all with
+  section dots, animated counters, floating hero cards, marquee, all with
   `prefers-reduced-motion` fallbacks.
 
 ## Quick start
@@ -45,7 +45,7 @@ Production build: `npm run build && npm start`.
 
 ## Environment variables (optional)
 
-The app works fully without any env vars — persistence falls back to server
+The app works fully without any env vars; persistence falls back to server
 logs. Add these on Vercel to enable the full backend:
 
 | Variable | Purpose |
@@ -70,6 +70,6 @@ vercel.json           # security headers + HTTPS enforcement
 
 ## Deployment
 
-Push to a Git host and import into Vercel — no configuration needed. Link a KV
+Push to a Git host and import into Vercel; no configuration needed. Link a KV
 database and set env vars above for the live backend. Update
 `https://medicareplus.co.ke` in `lib/site.ts` and `vercel.json` to your domain.

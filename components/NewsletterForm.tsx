@@ -25,7 +25,7 @@ export default function NewsletterForm() {
         setState("ok");
         setMsg(
           json.existing
-            ? "You are already on our list — Asante!"
+            ? "You are already on our list. Asante!"
             : "Subscribed! Health tips coming your way."
         );
         form.reset();
@@ -35,7 +35,7 @@ export default function NewsletterForm() {
       }
     } catch {
       setState("err");
-      setMsg("Network error — please try again.");
+      setMsg("Network error. Please try again.");
     }
   }
 

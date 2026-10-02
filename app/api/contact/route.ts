@@ -50,7 +50,7 @@ export async function POST(req: NextRequest) {
   await sendEmail({
     to: "hello@medicareplus.co.ke",
     replyTo: email,
-    subject: `Website enquiry ${id} — ${name}`,
+    subject: `Website enquiry ${id} from ${name}`,
     html: `<p><b>From:</b> ${name} (${email}${phone ? `, ${phone}` : ""})</p><p>${message
       .replace(/</g, "&lt;")
       .replace(/\n/g, "<br/>")}</p>`,
